@@ -17,7 +17,7 @@ The retained changes cover the current blue/yellow leaf layout, transparent card
 
 Iris directed the visual design, chose and refined the interactions, and tested the working behavior on Windows. ChatGPT/Codex assisted with code drafting, debugging, and documentation.
 
-The complete, latest local source snapshot still needs to be imported. These notes do not claim that the complete customized application is already included in this repository.
+The latest working source was imported from the snapshot supplied by Iris. [SOURCE_IMPORT.md](docs/SOURCE_IMPORT.md) records the source preservation and the limited portability changes. The original artwork and compiled drag-helper binary are not part of the public import.
 
 ## Implementation references
 
@@ -47,12 +47,14 @@ Rainmeter is a separate dependency. This repository does not relicense Rainmeter
 | Reference | Attribution and current status |
 | --- | --- |
 | Heartstopper | The visual theme was inspired by **Alice Oseman's Heartstopper** and the television adaptation. See [Alice Oseman's official Heartstopper page](https://aliceoseman.com/heartstopper/). |
-| Four-leaf image reference | Supplied by Iris during design. Its exact original creator, publication URL, and redistribution permission have not been verified. The current recoloring/layout work does not establish ownership of the underlying illustration. |
+| Four-leaf image reference | Adapted from **Alice Oseman's original Heartstopper comics**, with colors changed for this widget, as identified by Iris. The exact panel/page and original image URL have not been provided. Original illustration credit remains with Alice Oseman; the image is not bundled or covered by the code's MIT license. |
 | Television still used as desktop wallpaper | Supplied by Iris as a personal visual reference. The exact still's publication source/photographer has not been verified. It is not bundled or licensed by this repository. |
-| Mention-label appearance | Inspired by a chat-interface screenshot supplied during design. The screenshot's original publication URL was not recorded; it is not bundled. |
+| Mention-label appearance | Inspired by **[Discord](https://discord.com/)** `@mention` labels, using a screenshot supplied by Iris as the visual reference. The screenshot itself is not bundled. |
+| Mathematical heading | Inspired by the double-struck **ℝℙ²** heading on the **[RP2 programme status page](https://rp2.rossprogram.org/status)** supplied by Iris. The widget uses the text `𝕋𝕠 𝔻𝕠` with Windows' Cambria Math font; no font file or programme code is redistributed. |
 
 Only references relevant to the retained design and working implementation are listed here. The current public repository does not include these reference images or a screenshot of private tasks.
 
 ## Source snapshot and privacy
 
-The Windows source import must preserve the latest active scripts and the C# source for the working scrollbar helper. Local login files, cached task data, pending task input, machine-specific generated skins, personal settings, logs, binaries, and historical backup copies are excluded from version control.
+The import preserves the latest active scripts and includes the C# source corresponding to the working scrollbar helper. Local login files, cached task data, pending task input, machine-specific generated skins, personal settings, logs, binaries, and historical backup copies are excluded from version control.
+

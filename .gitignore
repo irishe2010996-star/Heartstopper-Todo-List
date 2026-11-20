@@ -1,5 +1,7 @@
 # Credentials and local account state
 token.dat
+auth-code.json
+widget.config.json
 tokens.json
 *.token
 .env
@@ -42,8 +44,10 @@ obj/
 
 # Private reference assets pending source/permission review
 reference-images/
+soft-rainbow-leaves.png
 
 # OS/editor files
 .DS_Store
 Thumbs.db
 .vscode/
+
