@@ -1,0 +1,49 @@
+# Credentials and local account state
+token.dat
+tokens.json
+*.token
+.env
+.env.*
+!.env.example
+
+# Private task data and local preferences
+tasks.json
+pending.txt
+settings.txt
+tips.txt
+panel.txt
+scroll.txt
+
+# Generated skins and machine-specific shortcuts
+Rainmeter.ini
+ToDo.ini
+ToDoCal.ini
+*.lnk
+
+# Logs, temporary files, and runtime guards
+*.log
+*.lock
+last-action-error.txt
+scroll-drag-status.txt
+*.tmp
+
+# Historical fixes/backups and export archives
+backup-*/
+*.ps1.*-backup-*
+*.lua.*-backup-*
+*.zip
+
+# Build artifacts; commit helper source instead
+*.exe
+*.dll
+*.pdb
+bin/
+obj/
+
+# Private reference assets pending source/permission review
+reference-images/
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
